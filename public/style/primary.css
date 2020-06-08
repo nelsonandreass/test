@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mySlide {
+  display: none;
+  max-width: 3000px;
+}
+
+.mySlide img {
+  height: 80vh;
+}
+
+.fading {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.item {
+  background-color: yellow;
+}
+
+#details {
+  z-index: 2;
+  margin-top: -50%;
+  width: 50%;
+  display: none;
+  margin: auto;
+}
+
+#details #plus {
+  float: right;
+}
+/*# sourceMappingURL=primary.css.map */
